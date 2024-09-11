@@ -1,7 +1,4 @@
-import java.util.Scanner;
-
-public class SomadeImparesConsecutivosI {
-    public static void main(String[] args) {
+// Leia 2 valores inteiros X e Y. A seguir, calcule e mostre a soma dos números impares entre eles.
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int y = sc.nextInt();
@@ -16,6 +13,4 @@ public class SomadeImparesConsecutivosI {
 
         System.out.println(oddCount);
 
-    }
-}
 
